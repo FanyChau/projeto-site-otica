@@ -1,0 +1,44 @@
+.container_topo{
+    width: 100%;
+    max-width: 1024px;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.container_links{
+    display: flex;
+    gap: 20px;
+}
+
+.container_links a{
+    text-decoration: none;
+    color:#000000;
+   
+}
+
+.imagem_logo{
+    width: auto;
+    height: 50px;
+}
+
+@media (max-width: 768px){
+    .container_topo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .borda{
+        border: 0.1px solid #00000069;
+        width: 100%;
+    }
+
+    .container_links{
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,134 @@
+.secao_sobre{
+   padding: 100px 20px; 
+   background-color: #f8f7ff;
+   margin: 0 auto;
+}
+
+.container_textos{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 60px auto;
+    width: 70%;
+    line-height: 2;
+}
+
+.container_textos h3{
+    font-size: 26px;
+}
+
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.container_cards img,
+.card_conteudo
+{
+    width: 50%;
+    border: 1px solid #a2adad;
+    max-height: 300px;
+}
+
+.container_cards img{
+    object-fit: cover;
+}
+
+.card_conteudo h4{
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size:  36px;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.card_conteudo p{
+    width: 300px;
+    color: #4a4a4a;
+    font-size: 22px;
+    width: 100%;
+}
+
+.card_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 25px;
+    justify-content: center;
+    text-align: center;
+    background-color:#fff;
+    gap: 60px;
+}
+
+
+@media (max-width: 1440px) {
+    .card_conteudo {
+        gap: 30px;
+    }
+   .card_conteudo h4 {
+     font-weight: 550;
+   }
+   .card_conteudo p{
+    font-size: 20px;
+   }
+    
+}
+
+@media (max-width: 1024px) {
+   .card_conteudo p{
+    font-size: 22px;
+   }      
+}
+
+@media (max-width: 768px) {
+    .card_conteudo h4{
+        font-size: 28px;
+    }
+    .card_conteudo p{
+        font-size: 17px;
+       
+    }
+    .container_textos {
+        width: 100%;
+    }
+    .container_textos h3{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 425px){
+    .container_cards img,
+.card_conteudo{
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (max-width: 375px){
+    .card_conteudo,
+    .container_cards img{
+      height: 300px;
+    }
+   .container_textos{
+    width: 100%;
+    }
+    .container_textos p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .card_conteudo h4{
+        font-size: 20px;
+    }
+    .card_conteudo p{
+        font-size: 15px;
+        width: 100%;
+    }
+  
+   }
+
+
