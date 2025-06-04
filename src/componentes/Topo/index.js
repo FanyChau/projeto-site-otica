@@ -13,6 +13,7 @@ export default function Topo() {
             <Link href="#produto">PRODUTOS</Link>
             <Link href="#sobre">SOBRE</Link>
             <Link href="#contato">CONTATO</Link>
+            <Link href="#localizacao">LOCALIZAÇÃO</Link>
             </nav>
        </header>
     )
